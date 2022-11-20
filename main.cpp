@@ -7,13 +7,13 @@ int main() {
    cin >> a >> b;
    cin >> opzione;
    switch (opzione) {
-      case 1: cout<< (a*b)/2 << endl;
+      case 0: cout<< (a*b)/2 << endl;
          break;
-      case 2: cout << (a*a) << endl;
+      case 1: cout << (a*a) << endl;
          break;
-      case 3: cout << (a*b) << endl;
+      case 2: cout << (a*b) << endl;
          break;
-      default: cout << "operazione non valida" << endl;
+      default: cout << "opzione non valida" << endl;
    }
    return 0;
 }
