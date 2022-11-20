@@ -13,7 +13,7 @@ int main() {
          break;
       case 2: cout << a*b << endl;
          break;
-      default: cout << operazione non valida << endl;
+      default: cout << "operazione non valida" << endl;
    }
    return 0;
 }
